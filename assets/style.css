@@ -1,0 +1,58 @@
+body{
+    /* font-family:'Bebas Neue', cursive; */
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.navbar-custom{
+    background-color:#013220;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.navbar,
+.navbar-brand {
+    font-size: 26px;
+    color: white;
+    padding: .5px;
+    float: left;
+}
+
+.jumbotron {
+    background-image: url(../assets/Images/IMG-9675.jpg);
+    opacity: .75;
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    border: black;
+    border-radius: 0;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+a:hover {
+ color: grey;
+}
+
+i{
+    padding: 3px;
+    color: white;
+    size: 1px;
+    float: left;
+    
+}
+
+i:hover{
+    color:grey;
+
+}
+
+span{
+    background-color: lightgreen;
+}
