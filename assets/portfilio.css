@@ -23,20 +23,6 @@ body {
     float: left;
 }
 
-.jumbotron {
-    background-image: url(../assets/Images/IMG-9675.jpg);
-    opacity: .75;
-    background-size: cover;
-    background-position: center,center;
-    background-repeat: no-repeat;
-    color: white;
-    font-weight: bold;
-    border: black;
-    border-radius: 0;
-    text-align: left;
-}
-
-
 .nav-link {
     color: white;
 }
@@ -57,38 +43,33 @@ i:hover {
 
 }
 
-.col-lg-4 {
-    border: 5px solid #013220;
-    border-radius: 0px;
-    background-color:#8ABD91;
+.jumbotron {
+    background-image: url(../assets/Images/kiki-jared.jpg);
+    opacity: .75;
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
     color: white;
-    bottom: 0;
-    padding: 50px;
-
+    font-weight: bold;
+    border: black;
+    border-radius: 0;
+    text-align: left;
+    padding-right: 500px;
 }
 
-p{
-    font-size: 24px;
+.card-img{
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    opacity: .15;
 }
 
-
-.btn-block {
-    background-color:#013220 ;
+.card-title{
     color: white;
 }
 
-.btn-block a {
+.card-text{
     color: white;
-}
-
-table{
-    font-size: 20px;
-}
-
-.table-custom{
-    background-color: #8abd91;
-    color:white;
-    text-align: center;
 }
 
 .footer i {
@@ -103,5 +84,5 @@ table{
     position:static;
     bottom: 0px;
     padding: 20px;
-    height: 100%;
+    height: auto;
 }
