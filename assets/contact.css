@@ -5,6 +5,7 @@ body{
 html,
 body {
     margin: 0;
+    background-color: #8abd91;
 }
 
 .navbar-custom{
@@ -43,6 +44,35 @@ i:hover {
 
 }
 
+.jumbotron {
+    background-image: url(../assets/Images/contacts-jumbo.jpg);
+    opacity: .75;
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    border: black;
+    border-radius: 0;
+    text-align: left;
+}
+
+.card-outline-custom{
+    background-color: #013220;
+    color: white;
+    font-size: 20px;
+}
+
+.btn {
+    background-color:#8abd91 ;
+    color: white;
+}
+
+.card-header{
+    background-color: #013220;
+    color: white;
+}
+
 .footer i {
     float: right;
 
@@ -56,4 +86,4 @@ i:hover {
     bottom: 0px;
     padding: 20px;
     height: 100%;
-}
+    }

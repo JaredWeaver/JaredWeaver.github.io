@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+main {
+    height: 95vh;
+}
+
 .navbar-custom{
     background-color:#013220;
 }
@@ -34,6 +38,7 @@ body {
     border: black;
     border-radius: 0;
     text-align: left;
+    height: 95vh;
 }
 
 
@@ -82,7 +87,7 @@ p{
 }
 
 table{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .table-custom{
@@ -95,13 +100,12 @@ table{
     float: right;
 
 }
-
 .footer {
     background-color: #013220;
     color: white;
     width:100%;
-    position:static;
-    bottom: 0px;
+    position:absolute;
+    bottom: 0;
     padding: 20px;
-    height: 100%;
-}
+    height: auto;
+    }

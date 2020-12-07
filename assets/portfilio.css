@@ -54,22 +54,40 @@ i:hover {
     border: black;
     border-radius: 0;
     text-align: left;
-    padding-right: 500px;
 }
 
-.card-img{
+.col-lg-4{
+    border:10px solid #013220;
+    border-radius: 0px;
+    background-color: #8abd91;
+}
+
+.card-img-top{
     background-size: cover;
     background-position: center,center;
     background-repeat: no-repeat;
-    opacity: .15;
+    opacity: .5;
+   
 }
 
-.card-title{
+.card-img-top:hover{
+    opacity: 1;
+}
+
+
+.card-header{
     color: white;
+    background-color: #013220;
+    font-size: large;
 }
 
 .card-text{
     color: white;
+}
+
+.card-body{
+    background-color: #8abd91;
+    font-size: 20px;
 }
 
 .footer i {
@@ -84,5 +102,6 @@ i:hover {
     position:static;
     bottom: 0px;
     padding: 20px;
-    height: auto;
-}
+    height: 100%;
+    }
+    

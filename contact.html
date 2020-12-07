@@ -11,12 +11,15 @@
   <script src="https://kit.fontawesome.com/c139ec6728.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.io/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+  <link rel="stylesheet" type="text/css" href="assets/contact.css">
  
 </head>
 
 <body>
-  <header class="container mb-0">
+  <header class="container-fluid mb-0">
     <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
       <a class="navbar-brand" href="#">Jared Weaver</a>
       <div>
@@ -43,23 +46,66 @@
     </nav>
   </header>
   <main>
-    
+    <section>
+      <div class="jumbotron jumbotron-fluid pb-10 mt-4 mb-0">
+        <div class="container-fluid"></div>
+          <h1 class="display-4">Contact Me</h1>
+          <br><br><br>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col-md-6 mt-4 ml-4 mb-4">
+          <span class="anchor" id="formContact"></span>
+          <div class="card card-outline-custom">
+              <div class="card-header">
+                  <h3 class="mb-0">Send Me a Message</h3>
+              </div>
+              <div class="card-body">
+                  <form class="form" role="form" autocomplete="off">
+                    <fieldset>
+                        <label for="name2" class="mb-0">Name</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input type="text" name="name2" id="name2" class="form-control" required="">
+                            </div>
+                        </div>
+                        <label for="email2" class="mb-0">Email</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <input type="text" name="email2" id="email2" class="form-control" required="">
+                            </div>
+                        </div>
+                        <label for="message2" class="mb-0">Message</label>
+                        <div class="row mb-1">
+                            <div class="col-lg-12">
+                                <textarea rows="6" name="message2" id="message2" class="form-control" required=""></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-custom btn-lg float-right">Send Message</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+      </div>  
+    </section>  
   </main>  
-  <footer class="footer">
-      <div class="row mb-0">
-        <div class="col-md-8">
-          <h3> &copy 2020 Jared Weaver </h3>          
-        </div>
-        <div class="col-md-4">
-          <a href="https://www.linkedin.com/in/jaredweaver2/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>  
-          <a href="https://github.com/JaredWeaver" target="_blank"><i class="fab fa-github fa-lg"></i></a>
-          <a href="mailto:jared.weaver2@gmail.com" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
-        </div>
+  <footer class="footer fixed-bottom">
+    <div class="row">
+      <div class="col-md-8">
+        <h3> &copy 2020 Jared Weaver </h3>          
       </div>
+      <div class="col-md-4">
+        <a href="https://www.linkedin.com/in/jaredweaver2/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>  
+        <a href="https://github.com/JaredWeaver" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+        <a href="mailto:jared.weaver2@gmail.com" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
+      </div>
+    </div>
+    
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>  
 </body>
- 
+
 </html>
+

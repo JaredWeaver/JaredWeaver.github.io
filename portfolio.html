@@ -11,12 +11,15 @@
   <script src="https://kit.fontawesome.com/c139ec6728.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.io/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
   <link rel="stylesheet" type="text/css" href="assets/portfilio.css">
  
 </head>
 
 <body>
-  <header class="container">
+  <header class="container-fluid">
     <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
       <a class="navbar-brand" href="#">Jared Weaver</a>
       <div>
@@ -43,38 +46,42 @@
     </nav>
   </header>
   <main>
-    <section class=".container-fluid">
+    <section>
       <div class="row">
-        <div class="col-sm-12">
-          <div class="jumbotron jumbotron-fluid mt-0 mb-0">
-            <div class="container">
-              <h1 class="display-4">Projects</h1>
-              <p class="lead">Below is a list of all of my projects I have completed<br>in my UNC Coding Boot Camp and on my own time.</p>
+        <div class="col-md-12">
+          <div class="jumbotron jumbotron-fluid mt-5 mb-0 text-left">
+              <h1 class="display-3">Projects</h1>
               <br><br><br><br> <br><br><br><br><br><br><br><br>
-            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card bg-dark text-secondary">
-            <img src="assets/Images/week-1-project-screenshot.png" class="card-img" alt="UNC coding school refactor project">
-            <div class="card-img-overlay">
-              <h5 class="card-title display-4">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+      <div class="row mt-0 mb-0">
+        <div class="col-lg-4">
+          <div class="card h-100 mb-4">
+          <a href="https://github.com/JaredWeaver/week-1-homework-html-css" target="_blank"><img class="card-img-top" src="assets/Images/week-1-project-screenshot.png" alt="Screenshot of a project where we refactored a website."></a>
+            <div class="card-body">
+              <h2 class="card-header">Refactoring for Accessibility</h2>
+              <p class="card-text">In this project, we were given code to website and were tasked with refactoring the HTML it to make it more accessible.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card bg-dark text-secondary">
-            <img src="assets/Images/03-javascript-homework-demo.png" class="card-img" alt="Screenshot of website that is a password generator.">
-            <div class="card-img-overlay">
-              <h5 class="card-title display-4">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+        <div class="col-lg-4">
+          <div class="card h-100 mb-4">
+            <a href="https://github.com/JaredWeaver/JaredWeaver.github.io" target="_blank"><img class="card-img-top" src="assets/Images/project-2.png" alt="Screenshot of this current website as it was my 2nd assignment."> </a>
+            <div class="card-body">
+              <h2 class="card-header">Bootstrap/Portfolio</h2>
+              <p class="card-text">You're looking at it. This portfolio is my second assignment. Coded using HTML, CSS, and bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100 mb-4">
+            <a href="#"><img class="card-img-top" src="assets/Images/03-javascript-homework-demo.png" alt="Screenshot of Javascript Passwork Generator"> </a>
+            <div class="card-body">
+              <h2 class="card-header">Password Generator</h2>
+              <p class="card-text">Coming Soon</p>
             </div>
           </div>
         </div>
@@ -82,9 +89,9 @@
     </section>
   </main>
   <footer class="footer">
-      <div class="row mb-0">
+      <div class="row">
         <div class="col-md-8">
-          <h3> &copy 2020 Jared Weaver </h3>          
+          <h3> &copy; 2020 Jared Weaver </h3>          
         </div>
         <div class="col-md-4">
           <a href="https://www.linkedin.com/in/jaredweaver2/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>  
