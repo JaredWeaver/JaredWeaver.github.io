@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    height: 95vh;
+    height: 100%;
 }
 
 .navbar-custom{
@@ -38,7 +38,7 @@ main {
     border: black;
     border-radius: 0;
     text-align: left;
-    height: 95vh;
+    height: 50vh;
 }
 
 
@@ -68,12 +68,12 @@ i:hover {
     background-color:#8ABD91;
     color: white;
     bottom: 0;
-    padding: 50px;
+    padding: 20px;
 
 }
 
-p{
-    font-size: 24px;
+p {
+    font-size: 22px;
 }
 
 
@@ -101,11 +101,11 @@ table{
 
 }
 .footer {
-    background-color: #013220;
-    color: white;
-    width:100%;
-    position:absolute;
-    bottom: 0;
-    padding: 20px;
-    height: auto;
-    }
+        background-color: #013220;
+        color: white;
+        width:100%;
+        position:static;
+        bottom: 0px;
+        padding: 20px;
+        height: 100%;
+        }
