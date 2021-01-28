@@ -1,8 +1,10 @@
 # JaredWeaver.github.io
 
+Update 1.0 - Added gifs to portfolio page thumbnails and added more projects too.
+
 ## My Personal Webpage
 
-This webpage in its entirety was initially accomplished in accordance with my Week 2 homework assignment. In this assignment, we were tasked with utilizing a combination of bootstrap and css to design a responsive personal portfolio which can be viewed on any device size. I found this assignment to be very invigorating and helped me learn proper webpage structure and design. I look forward to adding my further education to this page.
+ We were tasked with utilizing a combination of bootstrap and css to design a responsive personal portfolio which can be viewed on any device size. I found this assignment to be very invigorating and helped me learn proper webpage structure and design. I look forward to adding my further education to this page.
 
 
 ### Home Page Key Components
@@ -16,11 +18,12 @@ This webpage in its entirety was initially accomplished in accordance with my We
 - Added a personalized favicon.
 
 
-![Screenshot of Horiseon webpage after refactoring](assets/Images/home-page-screenshot.png)
+![Screenshot](assets/Images/home-page-screenshot.png)
 
 
 ### Portfolio Page Key Components
 
+- Converted thumbnails to gifs
 - Same navbar as the home page.
 - Same jumbotron setup as the home page.
 - Utilzed bootstrap's cards components for each column in the main section. 
@@ -28,7 +31,7 @@ This webpage in its entirety was initially accomplished in accordance with my We
 - Same footer as the home page.
 
 
-![Screenshot of Horiseon webpage after refactoring](assets/Images/portfolio-page-screenshot.png)
+![screenshot](assets/Images/portfolio-page-screenshot.png)
 
 
 ### Contact Page Key Components
@@ -39,7 +42,7 @@ This webpage in its entirety was initially accomplished in accordance with my We
 - Would like to add in more personalized information and a proper about me.
 - Same footer as the home page.
 
-![Screenshot of Horiseon webpage after refactoring](assets/Images/contact-page-screenshot.png)
+![Screenshot](assets/Images/contact-page-screenshot.png)
 
 
 ## Resources
