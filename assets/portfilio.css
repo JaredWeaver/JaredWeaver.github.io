@@ -56,10 +56,14 @@ i:hover {
     text-align: left;
 }
 
-.col-lg-4{
+.gif-section{
+    background-color: #013220;
+}
+
+.col-md-4{
     border:10px solid #013220;
     border-radius: 0px;
-    background-color: #8abd91;
+    background-color: #6c8a70;
 }
 
 .card-img-top{
@@ -87,7 +91,7 @@ i:hover {
 }
 
 .card-body{
-    background-color: #8abd91;
+    background-color: #6c8a70;
     font-size: 20px;
 }
 

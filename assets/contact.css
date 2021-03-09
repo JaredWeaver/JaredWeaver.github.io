@@ -5,7 +5,7 @@ body{
 html,
 body {
     margin: 0;
-    background-color: #8abd91;
+    background-color: #6c8a70;
 }
 
 .navbar-custom{
@@ -64,7 +64,7 @@ i:hover {
 }
 
 .btn {
-    background-color:#8abd91 ;
+    background-color:#6c8a70 ;
     color: white;
 }
 

@@ -65,7 +65,7 @@ i:hover {
 .col-lg-4 {
     border: 5px solid #013220;
     border-radius: 0px;
-    background-color:#8ABD91;
+    background-color:#6c8a70;
     color: white;
     bottom: 0;
     padding: 20px;
@@ -91,7 +91,7 @@ table{
 }
 
 .table-custom{
-    background-color: #8abd91;
+    background-color: #6c8a70;
     color:white;
     text-align: center;
 }
