@@ -1,7 +1,5 @@
 # JaredWeaver.github.io
 
-Update 1.0 - Added gifs to portfolio page thumbnails and added more projects too.
-
 ## My Personal Webpage
 
  We were tasked with utilizing a combination of bootstrap and css to design a responsive personal portfolio which can be viewed on any device size. I found this assignment to be very invigorating and helped me learn proper webpage structure and design. I look forward to adding my further education to this page.
